@@ -1,0 +1,37 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #000;
+}
+
+.navbar-container{
+    height: 2.5rem;
+    border: 1px solid #000;
+    padding: 10px;
+}
+
+.nav-items {
+    display: flex;
+    font-size: calc(3px + 2vmin);
+    margin: 0 3rem 0 5rem;
+    align-items: center;
+}
+
+.list-container {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.list-items {
+    padding: 0 15px;
+    cursor: pointer;
+    user-select: none;
+    justify-content: center;
+    align-items: center;
+}
+.item{
+    text-transform: uppercase;
+    font-size: 16px
+}
